@@ -1,0 +1,125 @@
+.image {
+  margin-top: 10px;
+}
+
+.image .img {
+  width: 100%;
+  height: 500px;
+}
+
+.image .heading {
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 105px;
+  width: 100%;
+  font-size: 37px;
+}
+
+.image .search {
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  width: 100%;
+}
+
+.image .searchTerm {
+  width: 50%;
+  padding: 5px;
+  height: 52px;
+  color: grey;
+  padding-left: 14px;
+  font-size: 17px;
+}
+
+.image .searchTerm:hover {
+  border: 1px solid blue;
+}
+
+.image .searchButton {
+  background: transparent;
+  text-align: center;
+  color: #3b3bf5;
+  cursor: pointer;
+  margin-left: -50px;
+  font-size: 20px;
+  border: transparent;
+}
+
+.home2 div {
+  height: 50%;
+  width: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 10px solid transparent;
+  cursor: pointer;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  -webkit-box-shadow: rgba(3, 3, 3, 0.1) 0px 0px 20px 3px;
+          box-shadow: rgba(3, 3, 3, 0.1) 0px 0px 20px 3px;
+}
+
+.home2 div:hover {
+  -webkit-transform: scale(1.02) translate(0px, -8px);
+          transform: scale(1.02) translate(0px, -8px);
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+
+.home2 div:hover .button2 {
+  color: white;
+  background-color: blue;
+}
+
+.home2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home2 .ani1, .home2 .ani2, .home2 .ani3 {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.home2 .ani1 p, .home2 .ani2 p, .home2 .ani3 p {
+  font-family: sans-serif;
+}
+
+.home2 .ani1 .button2, .home2 .ani2 .button2, .home2 .ani3 .button2 {
+  height: 50px;
+  width: 150px;
+  background-color: transparent;
+  border: 1px solid blue;
+  font-size: 15px;
+  color: blue;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=part2.css.map */

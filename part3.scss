@@ -1,0 +1,84 @@
+
+  
+  .show {display: block;}
+  
+  .secondlast{
+    display: flex;
+    background: white;
+    justify-content: space-evenly;
+    padding: 45px 24px;
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      width: 25%;
+      .dropbtn {
+        background-color: white;
+        color: black;
+        border: none;
+        border-right: 1px solid grey;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: underine;
+        width: 100%;
+        font-weight: 500;
+        padding: 0.3rem;
+        .dropbtn:hover, .dropbtn:focus {
+          background-color:none;
+          text-decoration: underline;
+        
+        }
+       
+      }
+      .dropdown-content {
+        display: none;
+        background-color: white;
+        overflow: auto;
+        z-index: 1;
+        a{
+          cursor: pointer;
+          font-weight: 300;
+          text-decoration: none;
+          color: #006AFF;
+          display: block;
+          text-align: center;
+          font-family: Open Sans;
+        }
+      }
+      a:hover {
+        background-color: transparent;
+        color: #62aef7;
+      }
+    }
+  }
+
+.last{
+  width: 100%;
+.navlast{
+    margin: 0 auto;
+    background: white;
+    padding: 35px 0;
+    border: 1px solid;
+    // margin: 0 2rem;
+    border: 1px solid #e3cbcb;
+    border-right: none;
+    border-left: none;
+    
+  }
+}
+  
+   
+  ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+    font-size: 15px;
+  }
+  li {
+   
+  margin: 0 10px;
+  display: inline-block;
+  padding-top: 0;
+  text-align: center;
+  }
